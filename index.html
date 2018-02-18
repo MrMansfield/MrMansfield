@@ -1,4 +1,4 @@
-<<head>
+<head>
   <meta charset="UTF-8">
   <title>Interactive Form</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
@@ -41,3 +41,14 @@
   <p class="tip">Press enter to submit each response</p>
   <div class="signup-button">Kellogg Honors Sign Up - Click to Begin</div>
 </form>
+<script>
+  const scriptURL = '<SCRIPT URL>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(https://script.google.com/macros/u/1/s/AKfycbx6_SCGjcaQC0-rGMkxsICoxEIQpIjv0TsFGO3cbaFxkDEf_3yA/exec, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
