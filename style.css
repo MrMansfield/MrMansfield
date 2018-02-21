@@ -3,7 +3,7 @@
   box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   height:   300px;
   position: relative;
-  width:    600px;
+  width:    800px;
   margin: 20px auto;
 }
 
@@ -14,8 +14,9 @@ figure.profile-banner {
   position: absolute;
   top:      0;
   z-index:  1;
-  width:600px;
+  width:800px;
   height:300px;
+  opacity: .8
 }
 
 /*Profile Picture*/
@@ -39,7 +40,7 @@ div.profile-data {
   left: 0;
   position: absolute;
   z-index: 2;
-  color:#fff;
+  color:#818181;
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
   padding:20px;
 }
@@ -53,7 +54,7 @@ float:left; width:200px;
 }
 
 .profile-data-right{
-float:left; width:360px; padding-top:15px;
+float:left; width:360px; padding-top:18px;
 }
 /* Name h1 */
 .profile-data>h1 {
@@ -62,10 +63,12 @@ float:left; width:360px; padding-top:15px;
 .profile-data-right h4 span {
   width:150px;
   display:inline-block;
+  
 }
 
 .profile-data-right h4{
-  margin-bottom:20px;
+  margin-bottom:24px;
+  
 }
 
 /* bottom profile stats bar */
@@ -73,7 +76,7 @@ div.profile-stats {
   bottom: 0;
   border-top: 1px solid rgba(0,0,0,0.5);
   left: 0;
-  padding: 15px 15px 15px 210px;
+  padding: 13px 13px 13px 210px;
   position: absolute;
   right: 0;
   z-index: 2;
@@ -104,7 +107,7 @@ div.profile-stats ul li {
 /* the word "screenplays" or the word "downloads" */
 div.profile-stats li span {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -115,3 +118,4 @@ div.profile-stats a.profile-msg {
   margin-top: 5px;
   text-decoration: none; 
 }
+
