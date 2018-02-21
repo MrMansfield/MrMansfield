@@ -1,0 +1,117 @@
+/* Main Container */
+.profile-header {
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  height:   300px;
+  position: relative;
+  width:    600px;
+  margin: 20px auto;
+}
+
+/* Users background image*/
+figure.profile-banner {
+  left:     0;
+  overflow: hidden;
+  position: absolute;
+  top:      0;
+  z-index:  1;
+  width:600px;
+  height:300px;
+}
+
+/*Profile Picture*/
+figure.profile-picture {
+  background-position: center center;
+  background-size: cover;
+  border: 5px #efefef solid;
+  border-radius: 50%;
+  bottom: -50px;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2), 1px 1px 4px rgba(0,0,0,0.3);
+  height: 148px;
+  left: 20px;
+  position: absolute;
+  width: 148px;
+  z-index: 3;
+}
+
+/* Top Container */
+div.profile-data {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  color:#fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  padding:20px;
+}
+.profile-data-left {
+float:left; width:200px;
+}
+.profile-data-left i {
+  font-size:24px;
+  text-shadow:0 1px 1px rgba(0,0,0,.5);
+  padding-right:10px;
+}
+
+.profile-data-right{
+float:left; width:360px; padding-top:15px;
+}
+/* Name h1 */
+.profile-data>h1 {
+ 
+}
+.profile-data-right h4 span {
+  width:150px;
+  display:inline-block;
+}
+
+.profile-data-right h4{
+  margin-bottom:20px;
+}
+
+/* bottom profile stats bar */
+div.profile-stats {
+  bottom: 0;
+  border-top: 1px solid rgba(0,0,0,0.5);
+  left: 0;
+  padding: 15px 15px 15px 210px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.51) 3%, rgba(0,0,0,0.75) 61%, rgba(0,0,0,0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(3%,rgba(0,0,0,0.51)), color-stop(61%,rgba(0,0,0,0.75)), color-stop(100%,rgba(0,0,0,0.5)));
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: -o-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80000000',GradientType=0 );
+}
+/* Screenplays and Downloads */
+div.profile-stats ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* The "number" for screenplays or downloads */
+div.profile-stats ul li {
+  color: #efefef;
+  display: block;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7)
+}
+/* the word "screenplays" or the word "downloads" */
+div.profile-stats li span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/*The "message" button*/
+div.profile-stats a.profile-msg {
+  display: block;
+  float: right; color: #ffffff;
+  margin-top: 5px;
+  text-decoration: none; 
+}
