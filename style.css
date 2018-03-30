@@ -18,7 +18,9 @@ figure.profile-banner {
   height:300px;
   opacity: .8
 }
-
+a {
+  text-decoration:none; border:none;
+}
 /*Profile Picture*/
 figure.profile-picture {
   background-position: center center;
